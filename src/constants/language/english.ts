@@ -32,7 +32,7 @@ export const english = {
     INACTIVITY: {
       STAY_SIGN_IN: "Stay Signed In",
       WILL_LOG_OUT: "You'll be logged out in 10 seconds due to inactivity.",
-      STILL_THERE: "Still theree?",
+      STILL_THERE: "Still there?",
     },
     COMING_SOON: {
       HEADING: "Coming Soon",
