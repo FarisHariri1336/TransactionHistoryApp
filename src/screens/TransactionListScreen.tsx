@@ -5,7 +5,7 @@ import { useAuth } from "../context/AuthContext";
 import { TransactionCard, CustomHeader, SafeAreaPage, MonthFilterTabs } from "../components";
 import { transactions } from "../utils/mockData";
 import { groupTransactionsByMonthAndDate, TransactionMonthSection } from "../utils/groupTransactions";
-import { colorGray, colorGreen, flexChild, fsAlignCenter, px, sw16, sw24 } from "../styles";
+import { colorGray, colorGreen, flexChild, flexGrow, fsAlignCenter, px, sw16, sw24 } from "../styles";
 import { Language } from "../constants";
 
 const { TRANSACTION_LIST } = Language.PAGE;
@@ -70,8 +70,8 @@ export const TransactionListScreen: FC<TransactionListScreenProps> = () => {
 
 const styles = StyleSheet.create({
   container: {
-    ...flexChild,
     ...px(sw16),
+    ...flexGrow,
   },
   sectionHeader: {
     fontSize: 14,
