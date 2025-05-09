@@ -37,7 +37,7 @@ export const english = {
     COMING_SOON: {
       HEADING: "Coming Soon",
       SUBHEADING: "This feature will be available in a future update.",
-      LABEL_TRY_AGAIN: "Try Again",
+      LABEL_TRY_AGAIN: "Close",
     },
   },
 };
